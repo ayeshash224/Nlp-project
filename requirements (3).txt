@@ -1,0 +1,8 @@
+# Python 3.11 or newer (tested with Python 3.13.9)
+kagglehub==1.0.3
+pandas==3.0.3
+numpy==2.4.6
+nltk==3.10.0
+matplotlib>=3.8
+spacy>=3.8
+notebook>=7.0
