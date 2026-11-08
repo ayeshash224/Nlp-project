@@ -1,0 +1,21 @@
+# Raw data is never committed (data_loader.py downloads it with kagglehub)
+*.csv
+*.parquet
+data/*
+
+# The final cleaned dataset IS part of the submission, so it is NOT ignored
+!data/cleaned_imdb_reviews.csv
+
+# Python and Jupyter temporary files
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Operating system files
+.DS_Store
+Thumbs.db
