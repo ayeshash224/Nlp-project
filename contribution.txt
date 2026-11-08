@@ -1,0 +1,26 @@
+Contribution Statement – Assignment 1 (Phase 1)
+
+Team Contribution Statement
+Project: IMDb 50K Movie Reviews – NLP Project (Phase 1)  
+Assignment: Assignment 1 – Data Acquisition, Text Processing & Cleaning
+
+Member 1 – AYESHA SHAHZAD
+Roll Number: L1F23BSCS0220
+
+Ayesha Shahzad was responsible for dataset loading and exploration,including calculating the number of documents, average review length, target distribution, 
+tokens and types, and analyzing Zipf's law and the long-tail distribution. 
+She also examined real examples of messy text, performed Unicode normalization and text cleaning, and developed regular expressions for handling URLs, emails, ratings, and special symbols. Additionally, she prepared the `requirements.txt` file.
+
+Member 2 – ALEENA RESHAM
+Roll Number: L1F23BSCS0581
+
+Aleena Resham was responsible for lowercasing, tokenization, and comparing two tokenization methods: 
+Regex and NLTK. She examined tokenization challenges in the IMDb reviews, performed stop-word removal while preserving important negations, and applied Porter stemming.
+Additionally, she prepared the project `README.md`, documenting the dataset, project structure, environment setup, installation instructions, and execution steps.
+
+Member 3 – ALBER KHAN JADOON
+Roll Number: L1F23BSCS0186
+
+Alber Khan Jadoon was responsible for lemmatization using WordNet, comparing stemming and lemmatization, and selecting the appropriate method for the final cleaning process. 
+He developed the reusable cleaning function, compared vocabulary size before and after cleaning, and generated the cleaned dataset. Additionally, he developed `cleaning_pipeline.py` and `data_loader.py` and prepared the `.gitignore` file to support project organization and reproducibility.
+
